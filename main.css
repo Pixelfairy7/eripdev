@@ -31,7 +31,17 @@
     border-radius: 100%;
     object-fit: cover;
 }
-.socials{
+.socials ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socials ul li{
+    list-style: none;
+    padding: 1rem;
+    
+}
+.socials a {
     color: #F1BF98;
 }
 
